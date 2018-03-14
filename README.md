@@ -18,8 +18,8 @@ SHORT NOTES:
 - As I've had to reinstall the system several times due to the nvidia jungle, I've stored the scripts + config files on an external disk. I mount this in one of the first scripts and copy the other scripts + configuration files to the sda (on which the debian is installed). If you have a different setup, be sure to edit this, and look up the correcg sdX using "fdisk -l".
 - I am not fully certain whether it would work without the current addition of "contrib" and "non-free" in the source.list but I have placed it there during one of the tries and you could try leaving this out, perhaps it works just as well (if I try it out, I will edit it here and comment)
 - optionally, paste this as well in your sources.list for latest security updates:
-deb http://security.debian.org/ stretch/updates main contrib non-free
-deb http://ftp.us.debian.org/debian stretch-proposed-updates main contrib non-free
+   deb http://security.debian.org/ stretch/updates main contrib non-free
+   deb http://ftp.us.debian.org/debian stretch-proposed-updates main contrib non-free
 
 
 PRETTY RELEVANT; IT WON'T WORK IF YOU DON'T DO THESE THINGS:
