@@ -2,13 +2,14 @@
  
 5 scripts, and 5 config files for getting
 
-Debian 9.3
-Openbox
+- Debian 9.3
+- Openbox
+
 to work properly with:
 
-Nvidia/CUDA 9.0
-Tensorflow 1.6
-Wavenet (https://github.com/ibab/tensorflow-wavenet)
+- Nvidia/CUDA 9.0
+- Tensorflow 1.6
+- Wavenet (https://github.com/ibab/tensorflow-wavenet)
 
 
 SHORT NOTES:
