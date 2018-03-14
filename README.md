@@ -11,10 +11,11 @@ Tensorflow 1.6
 Wavenet (https://github.com/ibab/tensorflow-wavenet)
 
 
-SOME NOTES:
+SHORT NOTES:
 
 - I'm using some aliases/shortcuts that I've created to make my typing life happier.
 - As I've had to reinstall the system several times due to the nvidia jungle, I've stored the scripts + config files on an external disk. I mount this in one of the first scripts and copy the other scripts + configuration files to the sda (on which the debian is installed). If you have a different setup, be sure to edit this, and look up the correcg sdX using "fdisk -l".
+
 
 PRETTY RELEVANT; IT WON'T WORK IF YOU DON'T DO THESE THINGS:
 
