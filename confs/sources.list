@@ -1,7 +1,10 @@
 
+# optionally, paste this as well in your sources.list for latest security updates:
+# deb http://security.debian.org/ stretch/updates main contrib non-free
+# deb http://ftp.us.debian.org/debian stretch-proposed-updates main contrib non-free
+
 # deb cdrom:[Debian GNU/Linux 9.3.0 _Stretch_ - Official amd64 NETINST 20171209-12:10]/ stretch main
 
-#deb cdrom:[Debian GNU/Linux 9.3.0 _Stretch_ - Official amd64 NETINST 20171209-12:10]/ stretch main
 
 deb http://ftp.nl.debian.org/debian/ stretch main contrib non-free
 deb-src http://ftp.nl.debian.org/debian/ stretch main contrib non-free
