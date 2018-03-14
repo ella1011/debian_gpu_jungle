@@ -1,0 +1,14 @@
+
+# deb cdrom:[Debian GNU/Linux 9.3.0 _Stretch_ - Official amd64 NETINST 20171209-12:10]/ stretch main
+
+#deb cdrom:[Debian GNU/Linux 9.3.0 _Stretch_ - Official amd64 NETINST 20171209-12:10]/ stretch main
+
+deb http://ftp.nl.debian.org/debian/ stretch main contrib non-free
+deb-src http://ftp.nl.debian.org/debian/ stretch main contrib non-free
+
+deb http://security.debian.org/debian-security stretch/updates main contrib non-free
+deb-src http://security.debian.org/debian-security stretch/updates main contrib non-free
+
+# stretch-updates, previously known as 'volatile'
+deb http://ftp.nl.debian.org/debian/ stretch-updates main contrib non-free
+deb-src http://ftp.nl.debian.org/debian/ stretch-updates main contrib non-free
