@@ -25,7 +25,17 @@ PRETTY RELEVANT; IT WON'T WORK IF YOU DON'T DO THESE THINGS:
 - the proper filenames for bash_aliases and bashrc are (respectivey) ".bash_aliases" and ".bashrc" -> don't forget the dot, as it's a hidden filed
 - while installing debian if you wish to use only Openbox, make sure to not forget to deselect the default options regarding the desktop environment during one of the last prompts. I selected only "ssh server" and the "standard system utilities" 
 https://debian-handbook.info/browse/stable/images/inst-tasksel.png
-- go to "debian_setup_scripts" and in "su_start0.sh" replace "myuser" with your own username, as well as other directory names
+- go to "debian_setup_scripts" and in "su_start0.sh" replace "myuser" with your own username, as well as the other directory names
+- go to "gpu_scripts" and "gpu_start0_B_tensorflow.sh" and in line 22 change "username" with your own, as well as the next directory if you've named it differently
+- downloads that need to be in place:
+- cuda_9.0.176_384.81_linux.run (initial installer) https://developer.nvidia.com/cuda-90-download-archive?target_os=Linux&target_arch=x86_64&target_distro=Ubuntu&target_version=1604&target_type=runfilelocal
+- cuda_9.0.176.1_linux.run (update patch)
+- libcudnn7_7.0.5.15-1+cuda9.0_amd64.deb (through https://developer.nvidia.com/cudnn you need to make an account, and download the 7.0.05.15 versions of below files -> this was the one that worked, not the other 7.05 or 7.1 versions)
+- you should end up making a directory "cudnn" with these files:
+- s dpkg -i libcudnn7_7.0.5.15-1+cuda9.0_amd64.deb
+- s dpkg -i libcudnn7-dev_7.0.5.15-1+cuda9.0_amd64.deb
+- s dpkg -i libcudnn7-doc_7.0.5.15-1+cuda9.0_amd64.deb
+
 
 ORDER OF THE SCRIPTS:
 
