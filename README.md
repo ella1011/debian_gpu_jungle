@@ -45,5 +45,7 @@ ORDER OF THE SCRIPTS:
 - and upon (automatic) reboot, run https://github.com/ella1011/debian_gpu_jungle/blob/master/debian_setup_scripts/sys_start0.sh
 - and now things should go by themselves, promting you for hitting y/enter/no and so on.
 
-- You have now time to watch this with a relaxing tea in your hand: https://www.youtube.com/watch?v=iYWzMvlj2RQ
+
+
+You have now time to watch this with a relaxing tea in your hand: https://www.youtube.com/watch?v=iYWzMvlj2RQ
 
