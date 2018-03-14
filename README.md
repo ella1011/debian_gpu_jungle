@@ -22,7 +22,7 @@ SHORT NOTES:
 PRETTY RELEVANT; IT WON'T WORK IF YOU DON'T DO THESE THINGS:
 
 - in bash.rc, be sure to scroll down to line 117 and change "export PATH=/home/user/gpu_dir:$PATH" to whatever your username and directory is with all the nvidia/cuda related files.
-- the proper filenames for bash_aliases and bashrc are (respectivey) ".bash_aliases" and ".bashrc" -> don't forget the dot, as it's a hidden filed
+- the proper filenames for bash_aliases and bashrc are (respectivey) ".bash_aliases" and ".bashrc" -> don't forget the dot, as it's a hidden file
 - while installing debian if you wish to use only Openbox, make sure to not forget to deselect the default options regarding the desktop environment during one of the last prompts. I selected only "ssh server" and the "standard system utilities" 
 https://debian-handbook.info/browse/stable/images/inst-tasksel.png
 - go to "debian_setup_scripts" and in "su_start0.sh" replace "myuser" with your own username, as well as the other directory names
@@ -45,5 +45,5 @@ ORDER OF THE SCRIPTS:
 - and upon (automatic) reboot, run https://github.com/ella1011/debian_gpu_jungle/blob/master/debian_setup_scripts/sys_start0.sh
 - and now things should go by themselves, promting you for hitting y/enter/no and so on.
 
-# You have now time to watch this with a relaxing tea in your hand: https://www.youtube.com/watch?v=iYWzMvlj2RQ
+- You have now time to watch this with a relaxing tea in your hand: https://www.youtube.com/watch?v=iYWzMvlj2RQ
 
