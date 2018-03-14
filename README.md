@@ -32,9 +32,9 @@ https://debian-handbook.info/browse/stable/images/inst-tasksel.png
 - cuda_9.0.176.1_linux.run (update patch)
 - libcudnn7_7.0.5.15-1+cuda9.0_amd64.deb (through https://developer.nvidia.com/cudnn you need to make an account, and download the 7.0.05.15 versions of below files -> this was the one that worked, not the other 7.05 or 7.1 versions)
 - you should end up making a directory "cudnn" with these files:
-- s dpkg -i libcudnn7_7.0.5.15-1+cuda9.0_amd64.deb
-- s dpkg -i libcudnn7-dev_7.0.5.15-1+cuda9.0_amd64.deb
-- s dpkg -i libcudnn7-doc_7.0.5.15-1+cuda9.0_amd64.deb
+- libcudnn7_7.0.5.15-1+cuda9.0_amd64.deb
+- libcudnn7-dev_7.0.5.15-1+cuda9.0_amd64.deb
+- libcudnn7-doc_7.0.5.15-1+cuda9.0_amd64.deb
 
 
 ORDER OF THE SCRIPTS:
