@@ -35,4 +35,5 @@ echo " AS WELL AS STARTING SYN FOR CHROMIUM / FIREFOX INSTALLATION  "
 echo "                     "
 echo "         BYE!        "
 echo "                     "
-
+xr
+# or sudo reboot
