@@ -22,5 +22,5 @@ PRETTY RELEVANT; IT WON'T WORK IF YOU DON'T DO THESE THINGS:
 
 - in bash.rc, be sure to scroll down to line 117 and change "export PATH=/home/user/gpu_dir:$PATH" to whatever your username and directory is with all the nvidia/cuda related files.
 - the proper filenames for bash_aliases and bashrc are (respectivey) ".bash_aliases" and ".bashrc" -> don't forget the dot, as it's a hidden file
-- while installing debian if you wish to use only Openboc, make sure to not forget to deselect the default options regarding the desktop environment during one of the last prompts. I selected only "ssh server" and the "standard system utilities" 
+- while installing debian if you wish to use only Openbox, make sure to not forget to deselect the default options regarding the desktop environment during one of the last prompts. I selected only "ssh server" and the "standard system utilities" 
 https://debian-handbook.info/browse/stable/images/inst-tasksel.png
