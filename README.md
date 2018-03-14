@@ -16,7 +16,7 @@ SHORT NOTES:
 
 - I'm using some aliases/shortcuts that I've created to make my typing life happier.
 - As I've had to reinstall the system several times due to the nvidia jungle, I've stored the scripts + config files on an external disk. I mount this in one of the first scripts and copy the other scripts + configuration files to the sda (on which the debian is installed). If you have a different setup, be sure to edit this, and look up the correcg sdX using "fdisk -l".
-- I am not fully certain whether it would work without the current addition of "contrib" and "non-free" in the source.list but I have placed it there during one of the tries and you could try leaving this out, perhaps it works just as well (if I try it out, I will edit it here and comment)
+- I am not fully certain whether it would work without the current addition of "contrib" and "non-free" in thdebian_gpu_jungle/gpu_e source.list but I have placed it there during one of the tries and you could try leaving this out, perhaps it works just as well (if I try it out, I will edit it here and comment)
 
 
 PRETTY RELEVANT; IT WON'T WORK IF YOU DON'T DO THESE THINGS:
@@ -31,7 +31,8 @@ https://debian-handbook.info/browse/stable/images/inst-tasksel.png
 - downloads that need to be in place:
 - cuda_9.0.176_384.81_linux.run (initial installer) https://developer.nvidia.com/cuda-90-download-archive?target_os=Linux&target_arch=x86_64&target_distro=Ubuntu&target_version=1604&target_type=runfilelocal
 - cuda_9.0.176.1_linux.run (update patch)
-- libcudnn7_7.0.5.15-1+cuda9.0_amd64.deb (through https://developer.nvidia.com/cudnn you need to make an account, and download the 7.0.05.15 versions of below files -> this was the one that worked, not the other 7.05 or 7.1 versions)
+- download the below mentioned "libcudnn7_7.0.5....deb" files through https://developer.nvidia.com/cudnn 
+- notice that you need to make an account, and specifically download the 7.0.05.15 versions of below files
 - you should end up making a directory "cudnn" with these files:
 - libcudnn7_7.0.5.15-1+cuda9.0_amd64.deb
 - libcudnn7-dev_7.0.5.15-1+cuda9.0_amd64.deb
