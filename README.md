@@ -48,5 +48,5 @@ ORDER OF THE SCRIPTS:
 
 
 
-You have now time to pondwer relevant questions, this with a  tea in your hand and this on repeat: https://www.youtube.com/watch?v=iYWzMvlj2RQ
+You have now time to ponder relevant questions, with a tea in your hand and this on repeat: https://www.youtube.com/watch?v=iYWzMvlj2RQ
 
