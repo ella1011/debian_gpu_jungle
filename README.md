@@ -1,6 +1,6 @@
 # debian_gpu_jungle
  
-5 scripts, and 5 config files for getting
+6 scripts, and 5 config files for getting
 
 - Debian 9.3
 - Openbox
