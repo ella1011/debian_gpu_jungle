@@ -16,7 +16,7 @@ echo "cp -r /mnt/sys_start0.sh /home/myuser/"
 cp -r /mnt/sys_start0.sh /home/myuser/
 
 echo "chmod 755 /home/myuser/gpu_rel/gpu_*.sh"
-chmod 755 /home/frank/gpu_rel/gpu_*.sh
+chmod 755 /home/myuser/gpu_rel/gpu_*.sh
 
 echo "chmod 755 /home/myuser/sys_*.sh"
 chmod 755 /home/myuser/sys_*.sh
