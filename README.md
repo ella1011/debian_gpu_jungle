@@ -50,7 +50,5 @@ AFTER YOU RUN THE LAST SCRIPT "gpu_start0_C_wavenet.sh":
 - training a 12 sec 16 khz wav file on a gtx 1080 11gb takes a little over a day
 - training the same file on a gtx 1060 12gb takes about twice the time, approaching 2.5 days
 (using an intel xeon E5-1620 v4, 4 core (8 thread) 3.5 ghz processor, and 32 GB lrdimm (ecc) ddr4 memory BUT only using 8 (PCI-e) lanes!)
-
-
-You now have time to ponder relevant questions with a tea in your hand and this on repeat: https://www.youtube.com/watch?v=iYWzMvlj2RQ
+- you now have time to ponder relevant questions with a tea in your hand and this on repeat: https://www.youtube.com/watch?v=iYWzMvlj2RQ
 
