@@ -31,7 +31,7 @@ https://debian-handbook.info/browse/stable/images/inst-tasksel.png
 - cuda_9.0.176.1_linux.run (update patch)
 - NOTE that I have not included the 2nd path ("Patch 2 (Released Mar 5, 2018)") but perhaps you may wish to do so! (I will try it out asap)
 - download the below mentioned "libcudnn7_7.0.5....deb" files through https://developer.nvidia.com/cudnn 
-- notice that you need to make an account, and specifically download the 7.0.05.15 versions of below files
+- notice that you need to make an account, and specifically download the 7.0.5.15 versions of below files
 - you should end up making a directory "cudnn" with these files:
 - libcudnn7_7.0.5.15-1+cuda9.0_amd64.deb
 - libcudnn7-dev_7.0.5.15-1+cuda9.0_amd64.deb
