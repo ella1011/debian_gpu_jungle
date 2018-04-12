@@ -62,9 +62,10 @@ case ${answer:0:1} in
         sagi htop
         sagi lm-sensors
         echo "                "
-        echo Ready to test wavenet now...
-        echo Run:
+        echo "Ready to test Wavenet now."
+        echo "Run:"
         echo "python3 train.py --data_dir=corpus #check for flags if applicable to your usecase"
+        echo "Note: training a 12 sec 16 khz wav file on a gtx 1080 11gb takes a bit over a day!"
         echo "                "
    ;;
     * )
