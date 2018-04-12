@@ -23,11 +23,11 @@ s systemctl enable nvidia-persistenced
 read -p "Does output equal: 'Created symlink /etc/systemd/system/multi-user.target.wants/nvidi ...etc?' " answer
 case ${answer:0:1} in
     y|Y )
-        echo Rebooting
+        echo "Rebooting"
         xr
     ;;
     * )
-        echo Exiting script
+        echo "Exiting script"
         exit 1
     ;;
 esac
