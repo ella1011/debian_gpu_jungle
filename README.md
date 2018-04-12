@@ -1,6 +1,6 @@
 # debian_gpu_jungle
  
-6 scripts, and 5 config files for getting:
+6 scripts and 5 config files for getting:
 - Debian 9.3
 - Openbox
 
@@ -26,7 +26,7 @@ https://debian-handbook.info/browse/stable/images/inst-tasksel.png
 - go to "debian_setup_scripts" and in "su_start0.sh" replace "myuser" with your own username, as well as the other directory names
 - go to "gpu_scripts" and "gpu_start0_B_tensorflow.sh" and in line 22 change "username" with your own, as well as the next directory if you've named it differently
 - do the same for "gpu_start0_C_wavenet.sh" on lines 39 and 44
-- downloads that need to be in place:
+- DOWNLOADS THAT NEED TO BE IN PLACE:
 - cuda_9.0.176_384.81_linux.run (initial installer) https://developer.nvidia.com/cuda-90-download-archive?target_os=Linux&target_arch=x86_64&target_distro=Ubuntu&target_version=1604&target_type=runfilelocal
 - cuda_9.0.176.1_linux.run (update patch)
 - NOTE that I have not included the 2nd path ("Patch 2 (Released Mar 5, 2018)") but perhaps you may wish to do so! (I will try it out asap)
@@ -38,13 +38,13 @@ https://debian-handbook.info/browse/stable/images/inst-tasksel.png
 - libcudnn7-doc_7.0.5.15-1+cuda9.0_amd64.deb
 
 
-ORDER OF THE SCRIPTS:
+ORDER OF RUNNING THE SCRIPTS:
 
 - Start with https://github.com/ella1011/debian_gpu_jungle/blob/master/debian_setup_scripts/su_start0.sh
-- and upon (automatic) reboot, run https://github.com/ella1011/debian_gpu_jungle/blob/master/debian_setup_scripts/sys_start0.sh
+- and upon (automatic) reboot, run "./sys_start0.sh"  https://github.com/ella1011/debian_gpu_jungle/blob/master/debian_setup_scripts/sys_start0.sh
 - and now things should go by themselves, promting you for hitting y/enter/no and so on.
 
 
 
-You have now time to ponder relevant questions with a tea in your hand and this on repeat: https://www.youtube.com/watch?v=iYWzMvlj2RQ
+You now have time to ponder relevant questions with a tea in your hand and this on repeat: https://www.youtube.com/watch?v=iYWzMvlj2RQ
 
