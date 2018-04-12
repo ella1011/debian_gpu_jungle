@@ -16,7 +16,7 @@ source ~/.bash_aliases
 source ~/.bashrc
 
 echo "                     "
-echo " INSTALLING ALL THE THINGS "
+echo " INSTALLING ALL INITIAL PACKAGES "
 echo "                     "
 sagi linux-image-amd64 xorg openbox obconf obmenu xfce4-terminal git subversion python3-pip python3-dev gcc
 sagi synaptic tmux dolphin geany feh mplayer youtube-dl audacity lynis rkhunter ffmpeg mediainfo 
@@ -30,10 +30,11 @@ s cp /etc/X11/openbox/* -p ~/.config/openbox/
 s cp ~/confs/.xinitrc ~/
 
 echo "                     "
-echo " REBOOTING - UPON BOOT, PROCEED to GPU INSTALLATION  "
-echo " AS WELL AS STARTING SYN FOR CHROMIUM / FIREFOX INSTALLATION  "
+echo " REBOOTING...        "
+echo " UPON BOOT, PROCEED to: "
+echo " GPU INSTALLATION  "
+echo " SYN FOR CHROMIUM / FIREFOX INSTALLATION  "
 echo "                     "
-echo "         BYE!        "
+echo " CALLING SUDO REBOOT!   "
 echo "                     "
 xr
-# or sudo reboot
