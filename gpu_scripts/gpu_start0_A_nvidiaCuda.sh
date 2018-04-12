@@ -19,10 +19,16 @@ echo "            "
 s mkdir /usr/lib/systemd/system
 s cp -f ~/confs/nvidia-persistenced.service /usr/lib/systemd/system/
 s systemctl enable nvidia-persistenced
-read -p "Does output equal: 'Created symlink /etc/systemd/system/multi-user.target.wants/nvidi ...etc?' "  -n 1 -r
-if [ "$answer" != "${answer#[Yy]}" ] ;then
-    echo "Rebooting "
-else
-    echo "Exiting script "
-fi
-xr
+
+read -p "Does output equal: 'Created symlink /etc/systemd/system/multi-user.target.wants/nvidi ...etc?' " answer
+case ${answer:0:1} in
+    y|Y )
+        echo Rebooting
+        xr
+    ;;
+    * )
+        echo Exiting script
+        exit 1
+    ;;
+esac
+
