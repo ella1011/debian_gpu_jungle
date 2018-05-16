@@ -2,6 +2,8 @@
 
 # TENSORFLOW -> FIRST CUDnn
 
+sleep 2
+echo "            "
 read -p "chnme was run? " answer
 case ${answer:0:1} in
     y|Y )
@@ -18,6 +20,8 @@ case ${answer:0:1} in
     ;;
 esac
 
+sleep 2
+echo "            "
 read -p "All ok? Proceed to install cudnn now? " answer
 case ${answer:0:1} in
     y|Y )
@@ -35,6 +39,8 @@ case ${answer:0:1} in
     ;;
 esac
 
+sleep 2
+echo "            "
 read -p "All ok? Proceed to install cudnn-DEV now? " answer
 case ${answer:0:1} in
     y|Y )
@@ -48,6 +54,8 @@ case ${answer:0:1} in
     ;;
 esac
 
+sleep 2
+echo "            "
 read -p "All ok? Proceed to install cudnn-DOC now? " answer
 case ${answer:0:1} in
     y|Y )
@@ -61,6 +69,8 @@ case ${answer:0:1} in
     ;;
 esac
 
+sleep 2
+echo "            "
 read -p "If all is ok, proceeding to verify cudnn installation? " answer
 case ${answer:0:1} in
     y|Y )
