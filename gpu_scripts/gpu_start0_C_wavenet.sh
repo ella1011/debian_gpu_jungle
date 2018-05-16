@@ -4,6 +4,8 @@
 
 # NOTE: this will fail the first time, then exit, chnme again, retry and it should work!
 
+sleep 2
+echo "            "
 read -p "OK to proceed? Ran chnme upon boot? " answer
 case ${answer:0:1} in
     y|Y )
@@ -22,6 +24,8 @@ case ${answer:0:1} in
     ;;
 esac
 
+sleep 2
+echo "            "
 read -p "OK to proceed & validate install? " answer
 case ${answer:0:1} in
     y|Y )
@@ -34,6 +38,8 @@ case ${answer:0:1} in
     ;;
 esac
 
+sleep 2
+echo "            "
 read -p "OK to proceed & validate install? " answer
 case ${answer:0:1} in
     y|Y )
@@ -46,6 +52,8 @@ case ${answer:0:1} in
     ;;
 esac
  
+sleep 2
+echo "            "
 read -p "OK to proceed & install Wavenet (for gpu)?" answer
 case ${answer:0:1} in
     y|Y )
